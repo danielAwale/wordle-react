@@ -6,9 +6,12 @@ function App() {
   useEffect(() => {
     fetch('http://localhost:3001/solutions')
       .then(resp => resp.json())
-      .then(json => { const randomSolution = json[Math.floor(Math.random() * json.length)] })
+      .then(json => {
+        const randomSolution = json[Math.floor(Math.random() * json.length)]
+        setSolution(randomSolution)
+      })
     // random int between 0 and 14
-  }, [])
+  }, [setSolution])
   return (
     <div className="App">
       <h1>Wordle (Lingo)</h1>
