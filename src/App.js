@@ -6,7 +6,8 @@ function App() {
   useEffect(() => {
     fetch('http://localhost:3001/solutions')
       .then(resp => resp.json())
-      .then(json => console.log(json))
+      .then(json => { const randomSolution = json[Math.floor(Math.random() * json.length)] })
+    // random int between 0 and 14
   }, [])
   return (
     <div className="App">
