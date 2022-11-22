@@ -1,5 +1,19 @@
 {
   "solutions": [
-    {"word" : "ninja", "id" :1}
+    {"word" : "ninja", "id" :1},
+    {"id":2, "word": "water"},
+    {"id":3, "word": "string"},
+    {"id":4, "word": "drive"},
+    {"id":5, "word": "relax"},
+    {"id":6, "word": "phone"},
+    {"id":7, "word": "seize"},
+    {"id":8, "word": "shine"},
+    {"id":9, "word": "ducat"},
+    {"id":10, "word": "azure"},
+    {"id":11, "word": "wrist"},
+    {"id":12, "word": "other"},
+    {"id":13, "word": "about"},
+    {"id":14, "word": "lunch"},
+    {"id":15, "word": "faith"}
   ]
 }
